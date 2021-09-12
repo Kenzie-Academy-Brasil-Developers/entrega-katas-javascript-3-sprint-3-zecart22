@@ -1,0 +1,33 @@
+body{
+    font-size: 2rem;
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+    color:black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+body header ul {
+    list-style: none;
+    margin-left: 20px;
+    width: 1200px;
+    height: 1200px;
+}
+
+body header ul h2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: #fff;
+    width: 1200px;
+    height: 40px;
+    font-weight: bold;
+
+}
+
+li {
+
+margin-top: 5px;
+
+}
