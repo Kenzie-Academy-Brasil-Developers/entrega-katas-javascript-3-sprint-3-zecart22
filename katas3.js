@@ -9,16 +9,19 @@ function showResults(resultado){
     itemLista.innerText = resultado ;
     //injetar eles o itens no html 
     lista.appendChild(itemLista)
-    
+    return itemLista;
   }
 
-function nomeKatas(whatKata){
-  const lista = document.querySelector('ul')
-  const nomeK = document.createElement('h2')
-  nomeK.innerText = whatKata;
-  lista.appendChild(nomeK)
-}
+//showResults();
 
+function nomeKatas(whatKata){
+   const lista = document.querySelector('ul')
+   const nomeK = document.createElement('h2')
+   nomeK.innerText = whatKata;
+   lista.appendChild(nomeK)
+   return nomeK;
+}
+  //nomeKatas();
 
     const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
   
@@ -33,8 +36,9 @@ function nomeKatas(whatKata){
     }
       return resultado;
   }
-  
-  
+
+  kata1();
+    
   function kata2() {
     const nkata = 'kata 2';
     nomeKatas(nkata)
@@ -47,6 +51,7 @@ function nomeKatas(whatKata){
       return resultado;
   }
   
+  kata2();
   
   function kata3() {
     const nkata = 'kata 3';
@@ -60,6 +65,7 @@ function nomeKatas(whatKata){
       return resultado;
   }
   
+  kata3();
   
   function kata4() {
     const nkata = 'kata 4';
@@ -73,6 +79,8 @@ function nomeKatas(whatKata){
       return resultado;
   }
   
+  kata4();
+
   function kata5() {
     const nkata = 'kata 5';
     nomeKatas(nkata)
@@ -87,6 +95,7 @@ function nomeKatas(whatKata){
         return resultado;
   }
   
+  kata5()
   
   function kata6() {
     const nkata = 'kata 6';
@@ -104,6 +113,8 @@ function nomeKatas(whatKata){
       return resultado;
   }
   
+  kata6();
+
   function kata7() {
     const nkata = 'kata 7';
     nomeKatas(nkata)
@@ -120,6 +131,7 @@ function nomeKatas(whatKata){
       return resultado;
   }
   
+  kata7();
   
   function kata8() {
     const nkata = 'kata 8';
@@ -136,6 +148,8 @@ function nomeKatas(whatKata){
     }
       return resultado;
   }
+
+  kata8();
   
   function kata9() {
     const nkata = 'kata 9';
@@ -152,18 +166,21 @@ function nomeKatas(whatKata){
     }
       return resultado;
   }
+
+  kata9();
   
   function kata10() {
     const nkata = 'kata 10';
     nomeKatas(nkata)
     let resultado = 0 ; 
-     const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
-     resultado = sampleArray;
-     //console.log(resultado);
-      showResults(resultado) ;
-      return resultado;
+    const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
+    resultado = sampleArray;
+    //console.log(resultado);
+    showResults(resultado) ;
+    return resultado;
   }
   
+  kata10();
   
   function kata11() {
     const nkata = 'kata 11';
@@ -181,6 +198,8 @@ function nomeKatas(whatKata){
     }
     return resultado
   }
+
+  kata11();
   
   function kata12() {
     const nkata = 'kata 12';
@@ -199,6 +218,8 @@ function nomeKatas(whatKata){
     return resultado
   }
   
+  kata12();
+
   function kata13() {
       const nkata = 'kata 13';
       nomeKatas(nkata)
@@ -215,6 +236,8 @@ function nomeKatas(whatKata){
     }
     return resultado
   }
+
+  kata13();
   
   function kata14() {
       const nkata = 'kata 14';
@@ -232,6 +255,8 @@ function nomeKatas(whatKata){
     }
     return resultado
   }
+
+  kata14();
   
   function kata15() {
      const nkata = 'kata 15';
@@ -244,6 +269,8 @@ function nomeKatas(whatKata){
    }
       return resultado;
   }
+
+  kata15();
 
 function kata16() {
      const nkata = 'kata 16';
@@ -262,6 +289,8 @@ function kata16() {
   return resultado
 }
 
+kata16();
+
 function kata17() {
     const nkata = 'kata 17';
     nomeKatas(nkata)
@@ -279,6 +308,8 @@ function kata17() {
   return resultado;
 }
 
+kata17();
+
 function kata18() {
     const nkata = 'kata 18';
     nomeKatas(nkata)
@@ -295,6 +326,8 @@ function kata18() {
 }
   return resultado;
 }
+
+kata18();
 
 /**
  * Daqui em diante são os bônus, por sua conta e risco
